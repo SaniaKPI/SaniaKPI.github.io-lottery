@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lottery</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="winner_field clearfix">
+			<button>new Winner</button>
+			<b>Winner:</b>
+			<span id="winner"></span>
+			
+		</div>
+		<br>
+  		<div class="winner_field">
+    		<legend>Registration form</legend>
+    		<p class="clearfix"><label>Name:<input type="text"></label></p>
+    		<p class="clearfix"><label>Surname:<input type="text"></label></p>
+    		<p class="clearfix"><label>Email:<input type="email"></label></p>
+   			<p class="clearfix"><label>Phone:<input type="number"></label></p>
+ 		</div>
+  			<br>
+			<button>Save</button>
+			<br><br>
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Surname</th>
+					<th>Email</th>
+					<th>Phone</th>
+				</tr>
+			</thead>
+			<tbody id="members"></tbody>
+		</table>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
+
+

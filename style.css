@@ -1,0 +1,38 @@
+.container{
+	width: 700px;
+	margin: 0px auto;
+}
+table{
+	border: 1px solid black;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0px auto;
+}
+th,td,.winner_field{
+	position: relative;
+	border: 1px solid black;
+	padding: 1%;
+}
+button, .winner_field label{
+	float: right;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.winner_field input{
+	width: 400px;
+	margin: 0px 40px
+}
+legend{
+	text-align: center;
+}
+.delete{
+	background-color: red;
+	color: white;
+}
+
+
+
+
